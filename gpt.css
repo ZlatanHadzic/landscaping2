@@ -65,21 +65,6 @@
 		margin-right: 15px;
 		margin-bottom: 10px;
 	}
-	.menu-toogle{
-		display: block;
-		background: none;
-		font-size: 1.5rem;
-		cursor: pointer;
-	}
-	.menu-toogle:focus{
-		outline: none;
-	}
-	.menu-dropdown{
-		display: none;
-	}
-	.menu-dropdown.show{
-		display: block;
-	}
 }
 
 .fun-fact {
