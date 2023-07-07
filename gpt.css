@@ -269,6 +269,9 @@ font-weight: bold;
     gap: 20px;
     justify-items: center;
   }
+.testimonial-tekst h1{
+font-weight: bold;
+}
   
   .testimonial {
     padding: 20px;
@@ -297,6 +300,15 @@ font-weight: bold;
     font-weight: bold;
     color: #777;
   }
+@media screen and (max-width: 767px) {
+  .testimonial-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .testimonial {
+    max-width: 350px;
+  }
+}
 
 .container {
 	padding: 2rem;
