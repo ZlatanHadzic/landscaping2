@@ -298,15 +298,11 @@ section {
 	font-size: 15px;
 	font-weight: 300;
 }
-body {
-	background: #0259f0;
-	height: 70vh;
-	font-family: 'Poppins', sans-serif;
-}
+
 .puca {
 	margin-top: 15%;
 }
-.card {
+.karta {
     width: 100%;
     height: 300px;
     transform-style: preserve-3d;
@@ -315,7 +311,7 @@ body {
     background-color: inherit;
 }
 
-.card .box {
+.karta .box {
     position: absolute;
     color: #262626;
     width: 100%;
@@ -327,12 +323,12 @@ body {
     transition: 0.5s;
     backface-visibility: hidden;
 }
-.card .box.front{
+.karta .box.front{
     background-image: url(img/pattern.png);
     background-repeat: repeat;
 }
-.card .box.front,
-.card .box.back {
+.karta .box.front,
+.karta .box.back {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -340,7 +336,7 @@ body {
     justify-content: center;
 }
 
-.card .box.front img {
+.karta .box.front img {
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
@@ -362,7 +358,7 @@ body {
 .socials i {
 	margin: 0 15px;
 }
-.card .box.back {
+.karta .box.back {
     position: absolute;
     background: #fff;
     transform: rotateY(180deg);
@@ -371,14 +367,14 @@ body {
     user-select: none;
 }
 
-.card .box.back .fa-quote-left {
+.karta .box.back .fa-quote-left {
 	position: absolute;
 	top: 25px;
 	left: 180px;
 	font-size: 3.2rem;
 }
 
-.card:hover .box.back {
+.karta:hover .box.back {
     transform: rotateY(360deg);
 }
 
