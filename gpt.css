@@ -316,6 +316,10 @@ font-weight: bold;
 @media screen and (max-width: 767px) {
   .testimonial-container {
     grid-template-columns: 1fr;
+	  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   .testimonial {
