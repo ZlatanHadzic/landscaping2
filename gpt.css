@@ -258,80 +258,46 @@ font-weight: bold;
 		margin:20px 0px;
 	}
 }
-::selection{
-  background: rgba(23,162,184,0.3);
-}
-.wrapper{
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.wrapper .box{
-  background: #fff;
-  width: calc(33% - 10px);
-  padding: 25px;
-  border-radius: 3px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
-}
-.wrapper .box i.quote{
-  font-size: 20px;
-  color: #17a2b8;
-}
-.wrapper .box .content{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 10px;
-}
-.box .info .name{
-  font-weight: 600;
-  font-size: 17px;
-}
-.box .info .job{
-  font-size: 16px;
-  font-weight: 500;
-  color: #17a2b8;
-}
-.box .info .stars{
-  margin-top: 2px;
-}
-.box .info .stars i{
-  color: #17a2b8;
-}
-.box .content .image{
-  height: 75px;
-  width: 75px;
-  padding: 3px;
-  background: #17a2b8;
-  border-radius: 50%;
-}
-.content .image img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #fff;
-}
-.box:hover .content .image img{
-  border-color: #fff;
-}
+.testimonial-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .testimonial {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .testimonial-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .testimonial-author {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #777;
+  }
 
-@media (max-width: 1045px) {
-  .wrapper .box{
-    width: calc(50% - 10px);
-    margin: 10px 0;
-  }
-}
-@media (max-width: 702px) {
-  .wrapper .box{
-    width: 100%;
-  }
-}
 .container {
 	padding: 2rem;
 	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/348587941_161523560012916_5242552814400351865_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jDikMe8krLoAX-ZlUqO&_nc_ht=scontent.fsjj1-1.fna&oh=00_AfCqwyegvDOXhPYdHo7X_DmdG43lENv68GceifSyrdBolg&oe=64A8418E');
